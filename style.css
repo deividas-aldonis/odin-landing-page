@@ -101,7 +101,7 @@ a {
     background-color: var(--btn-background);
     color: var(--main-text);
     text-decoration: none;
-    padding: 8px 24px;
+    padding: 10px 32px;
     border-radius: 8px;
     width: max-content;
 }
@@ -167,4 +167,50 @@ a {
     font-weight: 700;
     text-align: right;
     margin-top: 12px;
+}
+
+/* Cta section */
+
+.cta_container {
+    width: 65%;
+    margin: auto;
+}
+
+.cta {
+    background-color: var(--btn-background);
+    color: var(--main-text);
+    padding: 50px 0;
+    margin: 100px 0;
+    border-radius: 12px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cta__heading {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.cta__btn {
+    font-weight: 500;
+    color: var(--main-text);
+    padding: 10px 32px;
+    border-radius: 8px;
+    border: 2px solid var(--main-text);
+}
+
+/* Footer */
+
+.footer {
+    background-color: var(--dark-background);
+    padding: 36px;
+}
+
+.footer__text {
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    color: var(--main-text);
 }
