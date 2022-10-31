@@ -24,7 +24,7 @@ a {
     text-decoration: none;
 }
 
-.container {
+.topnav_container {
     background-color: var(--dark-background);
     color: var(--main-text);
     padding: 20px;
@@ -103,4 +103,41 @@ a {
     padding: 8px 24px;
     border-radius: 8px;
     width: max-content;
+}
+
+/* Info section */
+
+.info {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.info__heading {
+    font-size: 36px;
+    font-weight: 900;
+    color: var(--dark-background);
+    margin-top: 40px;
+}
+
+.info__blocks {
+    display: flex;
+    gap: 40px;
+    margin: 60px 0 60px 0;
+}
+
+.info__block {
+    width: 25%;
+}
+
+.info__image {
+    width: 100%;
+    border: 2px solid var(--secondary-text);
+    border-radius: 12px;
+}
+
+.info__description {
+    margin-top: 8px;
+    font-size: 18px;
+    color: var(--dark-background);
 }
