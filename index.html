@@ -4,15 +4,52 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Landing Page</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
-            rel="preload"
-            as="font"
-            type="font/woff2"
-            crossorigin
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap"
+            rel="stylesheet"
         />
         <link rel="stylesheet" href="style.css" />
-        <title>Landing Page</title>
     </head>
-    <body></body>
+    <body>
+        <div class="container">
+            <header class="topnav">
+                <h2 class="topnav__logo">Header Logo</h2>
+
+                <nav>
+                    <ul class="topnav__links">
+                        <li>
+                            <a class="topnav__link" href="#">header link one</a>
+                        </li>
+                        <li>
+                            <a class="topnav__link" href="#">header link two</a>
+                        </li>
+                        <li>
+                            <a class="topnav__link" href="#"
+                                >header link three</a
+                            >
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <section class="hero">
+                <div class="hero__about">
+                    <h1 class="hero__heading">This website is awesome</h1>
+                    <p class="hero__paragraph">
+                        This website has some subtext that goes under the main
+                        title.It's smaller font and the color is lower contrast
+                    </p>
+                    <a class="hero__btn" href="#">Sign up</a>
+                </div>
+                <img
+                    class="hero__image"
+                    src="img/hero.png"
+                    alt="Html and css"
+                />
+            </section>
+        </div>
+    </body>
 </html>
